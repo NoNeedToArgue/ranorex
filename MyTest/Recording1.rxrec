@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="272c312c-1af0-44b9-b5bd-c380b76d4dc5"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="MyTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="002aa5df-33d9-493b-a9fc-530b62d6c4e1"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="3dbeeafd-985c-4af2-9a0d-7c99dbd299eb"
+	name="MyTestRepository"
+	relativepath="MyTestRepository.rxrep">
+		<codegen
+		classname="MyTestRepository"
+		namespace="MyTest">
+		</codegen>
+		<rootfolder
+		id="f23282ac-99c3-408b-a54d-cd2ce5a2329a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
